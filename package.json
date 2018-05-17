@@ -1,13 +1,17 @@
 {
   "name": "required-template",
-  "version": "1.0.0",
-  "description":
-    "A tagged template literal function that throws on undefined or null values",
+  "version": "1.0.1",
+  "description": "A tagged template literal function that throws on undefined or null values",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": ["tagged", "template", "literal", "string"],
+  "keywords": [
+    "tagged",
+    "template",
+    "literal",
+    "string"
+  ],
   "author": "Steve Faulkner <southpolesteve@gmail.com>",
   "license": "MIT",
   "dependencies": {},
