@@ -17,7 +17,8 @@ let isUndefined
 `This ${isUndefined}` // Prints "This undefined"
 `This ${isNull}` // Prints "This null"
 
-// 99.9% of time this is not what I want to happen! So tag your literals with `required-template` instead!
+// 99.9% of time this is not what I want to happen!
+// So tag your literals with `required-template` instead!
 
 const r = require('required-template')
 
