@@ -1,0 +1,15 @@
+{
+  "name": "required-template",
+  "version": "1.0.0",
+  "description":
+    "A tagged template literal function that throws on undefined or null values",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "Steve Faulkner <southpolesteve@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": "bustle/required-template"
+}
