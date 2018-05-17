@@ -7,19 +7,14 @@ Seeing `undefined` or `null` show up in you or ES6 template strings? Instead of 
 Here is an example with code:
 
 ```js
-const works = 'works'
-const isNull = null
-let isUndefined
-
+let works = 'works', isNull = null, isUndefined
 // The default ES6 behavior is to print the strings "undefined" and "null"
-
 `This ${works} correctly` // Prints "This works correctly"
 `This ${isUndefined}` // Prints "This undefined"
 `This ${isNull}` // Prints "This null"
 
 // 99.9% of time this is not what I want to happen!
 // So tag your literals with `required-template` instead!
-
 const r = require('required-template')
 
 r`This ${works} correctly` // Prints "This works correctly"

@@ -7,7 +7,7 @@
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": [],
+  "keywords": ["tagged", "template", "literal", "string"],
   "author": "Steve Faulkner <southpolesteve@gmail.com>",
   "license": "MIT",
   "dependencies": {},
