@@ -1,6 +1,6 @@
 {
   "name": "required-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tagged template literal function that throws on undefined or null values",
   "main": "index.js",
   "scripts": {
